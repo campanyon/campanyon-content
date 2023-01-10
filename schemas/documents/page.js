@@ -34,6 +34,13 @@ export default {
       of: [{type: 'heroSection'}, {type: 'imageSection'}, {type: 'titleSection'}, {type: 'textSection'}, {type: 'listingSection'}, {type: 'horizontalImageTextSection'}],
     },
     {
+      name: 'metaTitle',
+      type: 'string',
+      title: 'Title',
+      description: 'Meta title',
+      fieldset: 'metadata',
+    },
+    {
       name: 'description',
       type: 'text',
       title: 'Description',

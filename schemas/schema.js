@@ -12,6 +12,7 @@ import cta from './objects/cta'
 import embedHTML from './objects/embedHTML'
 import figure from './objects/figure'
 import link from './objects/link'
+import internalLink from './objects/internalLink'
 import portableText from './objects/portableText'
 import simplePortableText from './objects/simplePortableText'
 
@@ -36,6 +37,7 @@ export default createSchema({
     heroSection,
     imageSection,
     link,
+    internalLink,
     mailchimp,
     page,
     portableText,

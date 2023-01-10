@@ -17,6 +17,11 @@ export default {
           scheme: ['https', 'http', 'mailto', 'tel'],
         }),
     },
+    {
+      name: 'noFollow',
+      type: 'boolean',
+      title: 'No follow',
+    },
   ],
   blockEditor: {
     icon: () => '🌍',
