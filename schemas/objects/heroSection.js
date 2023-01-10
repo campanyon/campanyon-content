@@ -1,6 +1,6 @@
 export default {
   type: 'object',
-  name: 'hero',
+  name: 'heroSection',
   title: 'Hero',
   fields: [
     {
@@ -9,7 +9,7 @@ export default {
       title: 'Title',
     },
     {
-      name: 'subttile',
+      name: 'subtitle',
       type: 'text',
       title: 'Subtitle',
     },

@@ -8,6 +8,11 @@ export default {
       type: 'simplePortableText',
       title: 'Text',
     },
+    {
+      name: 'title',
+      type: 'string',
+      title: 'Title',
+    },
   ],
   preview: {
     select: {

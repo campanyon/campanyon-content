@@ -31,7 +31,7 @@ export default {
       name: 'content',
       type: 'array',
       title: 'Page sections',
-      of: [{type: 'hero'}, {type: 'imageSection'}, {type: 'mailchimp'}, {type: 'textSection'}, {type: 'listingSection'}, {type: 'horizontalImageTextSection'}],
+      of: [{type: 'heroSection'}, {type: 'imageSection'}, {type: 'titleSection'}, {type: 'textSection'}, {type: 'listingSection'}, {type: 'horizontalImageTextSection'}],
     },
     {
       name: 'description',
@@ -52,7 +52,16 @@ export default {
   preview: {
     select: {
       title: 'title',
+      path: 'path',
+      language: 'language',
       media: 'openGraphImage',
+    },
+    prepare({title, path, language, media}) {
+      return {
+        title: title,
+        subtitle: `${language + '/l/' + path}`,
+        media: media
+      }
     },
   },
 }
