@@ -7,7 +7,6 @@ export default defineConfig({
   name: 'default',
   title: 'Campanyon',
   projectId: 'z1e26bae',
-  dataset: 'dev',
 
   plugins: [deskTool(), visionTool()],
 
