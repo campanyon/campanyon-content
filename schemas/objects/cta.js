@@ -18,30 +18,28 @@ export default {
     },
     {
       title: 'Internal link',
-      description: 'Use this to link between pages on the website',
-      name: 'route',
-      type: 'string',
+      name: 'internalLink',
+      type: 'internalLink',
       fieldset: 'link',
     },
     {
       title: 'External link',
-      name: 'link',
-      type: 'url',
+      name: 'externalLink',
+      type: 'link',
       fieldset: 'link',
     },
   ],
   preview: {
     select: {
       title: 'title',
-      routeTitle: 'route.title',
-      slug: 'route.slug.current',
-      link: 'link',
+      internalLink: 'internalLink.to.path',
+      externalLink: 'externalLink.href',
     },
-    prepare({title, routeTitle = '', slug, link}) {
-      const subtitleExtra = slug ? `Slug:/${slug}/` : link ? `External link: ${link}` : 'Not set'
+    prepare({title, internalLink, externalLink}) {
+      const subtitle = internalLink ? internalLink : externalLink ? externalLink : 'Not set'
       return {
         title: `${title}`,
-        subtitle: `${routeTitle} ${subtitleExtra}`,
+        subtitle: `${subtitle}`,
       }
     },
   },

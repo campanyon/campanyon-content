@@ -9,6 +9,11 @@ export default {
         title: 'Titel',
       },
       {
+        name: 'showMore',
+        type: 'cta',
+        title: 'Show More CTA',
+      },
+      {
         name: 'listings',
         type: 'array',
         of: [
