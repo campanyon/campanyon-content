@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LinkRender = ({children}) => <span>{children} 🌍</span>
+const LinkRender = ({children}) => {<span>{children} 🌍</span>}
 
 export default {
   title: 'URL',
@@ -21,6 +21,7 @@ export default {
       name: 'noFollow',
       type: 'boolean',
       title: 'No follow',
+      initialValue: false,
     },
   ],
   blockEditor: {
