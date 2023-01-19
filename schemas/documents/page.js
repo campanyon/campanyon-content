@@ -54,6 +54,12 @@ export default {
       description: 'Image for sharing previews on Facebook, Twitter etc.',
       fieldset: 'metadata',
     },
+    {
+      name: 'otherLanguages',
+      type: 'array',
+      title: 'Other languages',
+      of: [{type: 'internalLink'}],
+    },
   ],
 
   preview: {
