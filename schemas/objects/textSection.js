@@ -18,7 +18,7 @@ export default {
       type: 'number',
       description: 'Value between 1 and 8 for heading levels',
       title: 'Level (H1 - H8)',
-      initialValue: 2,
+      initialValue: 4,
       validation: Rule => Rule.min(1).max(8),
       options: {
         layout: 'radio',
