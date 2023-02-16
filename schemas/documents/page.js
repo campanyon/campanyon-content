@@ -28,6 +28,11 @@ export default {
       title: 'Title',
     },
     {
+      name: 'folder',
+      type: 'string',
+      title: 'Folder',
+    },
+    {
       name: 'content',
       type: 'array',
       title: 'Page sections',
