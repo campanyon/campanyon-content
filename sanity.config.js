@@ -26,7 +26,6 @@ export default defineConfig({
                 .title('All pages')
                 .filter('_type == "page"')
           ),
-          /*
           ...FOLDERS.map(folder =>
             S.listItem()
               .title(`${folder}`)
@@ -38,7 +37,6 @@ export default defineConfig({
                   .filter(`folder == "${folder}" && _type == "page"`)
               )
           )
-          */
         ])
     },
   })
