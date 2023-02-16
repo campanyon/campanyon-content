@@ -36,7 +36,7 @@ export default {
       name: 'content',
       type: 'array',
       title: 'Page sections',
-      of: [{type: 'heroSection'}, {type: 'titleSection'}, {type: 'textSection'}, {type: 'listingSection'}, {type: 'horizontalImageTextSection'}, {type: 'linksSection'}, {type: 'imageTextListSection'}],
+      of: [{type: 'heroSection'}, {type: 'titleSection'}, {type: 'textSection'}, {type: 'listingSection'}, {type: 'horizontalImageTextSection'}, {type: 'linksSection'}, {type: 'imageTextListSection'}, {type: 'videoSection'}],
     },
     {
       name: 'metaTitle',

@@ -11,6 +11,7 @@ import simplePortableText from './objects/simplePortableText'
 
 // Landing page sections
 import heroSection from './objects/heroSection'
+import videoSection from './objects/videoSection'
 import imageTextListSection from './objects/imageTextListSection'
 import textSection from './objects/textSection'
 import titleSection from './objects/titleSection'
@@ -33,4 +34,5 @@ export const schemaTypes = [
     listingSection,
     horizontalImageTextSection,
     linksSection,
+    videoSection,
 ]
