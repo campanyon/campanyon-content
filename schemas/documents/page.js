@@ -13,6 +13,12 @@ export default {
   ],
   fields: [
     {
+      name: 'indexed',
+      type: 'boolean',
+      title: 'Indexed',
+      description: 'Off = no-index'
+    },
+    {
       name: 'language',
       type: 'string',
       title: 'Language',
