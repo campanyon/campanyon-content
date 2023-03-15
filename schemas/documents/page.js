@@ -16,7 +16,8 @@ export default {
       name: 'indexed',
       type: 'boolean',
       title: 'Indexed',
-      description: 'Off = no-index'
+      description: 'Off = no-index',
+      initialValue: false,
     },
     {
       name: 'language',
