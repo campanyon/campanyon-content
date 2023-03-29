@@ -38,5 +38,5 @@ export const schemaTypes = [
     linksSection,
     videoSection,
     bannerSection,
-    voucherSection
+    voucherSection,
 ]
