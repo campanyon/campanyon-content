@@ -3,9 +3,14 @@ export default {
   name: 'voucherSection',
   title: 'Voucher',
   fields: [
+    {
+      name: 'title',
+      type: 'string',
+      title: 'Title',
+    },
   ],
   preview: {
-    prepare({media}) {
+    prepare() {
       return {
         title: 'Voucher section',
       }
