@@ -67,6 +67,13 @@ export default {
       fieldset: 'metadata',
     },
     {
+      name: 'onhome',
+      type: 'boolean',
+      title: 'On Home',
+      initialValue: false,
+      fieldset: 'metadata',
+    },
+    {
       name: 'otherLanguages',
       type: 'array',
       title: 'Other languages',
