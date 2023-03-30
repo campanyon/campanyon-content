@@ -5,6 +5,10 @@ export default {
   type: 'document',
   title: 'Page',
   icon: MasterDetailIcon,
+  initialValue: {
+    onhome: false,
+    indexed: false
+  },
   fieldsets: [
     {
       title: 'SEO & metadata',
@@ -17,7 +21,6 @@ export default {
       type: 'boolean',
       title: 'Indexed',
       description: 'Off = no-index',
-      initialValue: false,
     },
     {
       name: 'language',
@@ -70,7 +73,6 @@ export default {
       name: 'onhome',
       type: 'boolean',
       title: 'On Home',
-      initialValue: false,
       fieldset: 'metadata',
     },
     {
