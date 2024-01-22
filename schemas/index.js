@@ -17,6 +17,7 @@ import textSection from './objects/textSection'
 import voucherSection from './objects/voucherSection'
 import titleSection from './objects/titleSection'
 import listingSection from './objects/listingSection'
+import autoListingSection from './objects/autoListingSection'
 import bannerSection from './objects/bannerSection'
 import horizontalImageTextSection from './objects/horizontalImageTextSection'
 import linksSection from './objects/linksSection'
@@ -34,6 +35,7 @@ export const schemaTypes = [
     imageTextListSection,
     titleSection,
     listingSection,
+    autoListingSection,
     horizontalImageTextSection,
     linksSection,
     videoSection,
