@@ -46,7 +46,7 @@ export default {
       name: 'content',
       type: 'array',
       title: 'Page sections',
-      of: [{type: 'heroSection'}, {type: 'titleSection'}, {type: 'textSection'}, {type: 'listingSection'}, {type: 'horizontalImageTextSection'}, {type: 'linksSection'}, {type: 'imageTextListSection'}, {type: 'videoSection'}, {type: 'bannerSection'}, {type: 'voucherSection'}],
+      of: [{type: 'heroSection'}, {type: 'titleSection'}, {type: 'textSection'}, {type: 'listingSection'}, {type: 'autoListingSection'}, {type: 'horizontalImageTextSection'}, {type: 'linksSection'}, {type: 'imageTextListSection'}, {type: 'videoSection'}, {type: 'bannerSection'}, {type: 'voucherSection'}],
     },
     {
       name: 'metaTitle',
