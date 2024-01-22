@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'Campanyon',
   projectId: 'z1e26bae',
-  dataset: process.env.SANITY_STUDIO_API_DATASET,
+  dataset: 'dev',
 
   plugins: [deskTool({
     structure: async (S, context) => {

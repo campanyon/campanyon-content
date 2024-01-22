@@ -9,6 +9,22 @@ export default {
       title: 'Text',
     },
     {
+      name: 'enableSeeMore',
+      type: 'boolean',
+      title: 'Enable "see more" feature',
+      description: 'Show first 3 rows of text / 60-70 words',
+    },
+    {
+      name: 'readMoreText',
+      type: 'string',
+      title: 'Button text "Read More"',
+    },
+    {
+      name: 'readLessText',
+      type: 'string',
+      title:'Button text "Read Less"',
+    },
+    {
       name: 'title',
       type: 'string',
       title: 'Title',
@@ -44,7 +60,7 @@ function toPlainText(blocks = []) {
   return blocks
     // loop through each block
     .map(block => {
-      // if it's not a text block with children, 
+      // if it's not a text block with children,
       // return nothing
       if (block._type !== 'block' || !block.children) {
         return ''
