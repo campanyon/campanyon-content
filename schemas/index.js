@@ -20,6 +20,7 @@ import listingSection from './objects/listingSection'
 import bannerSection from './objects/bannerSection'
 import horizontalImageTextSection from './objects/horizontalImageTextSection'
 import linksSection from './objects/linksSection'
+import fixedBannerSection from './objects/fixedBannerSection'
 
 export const schemaTypes = [
     cta,
@@ -38,5 +39,6 @@ export const schemaTypes = [
     linksSection,
     videoSection,
     bannerSection,
+    fixedBannerSection,
     voucherSection,
 ]
