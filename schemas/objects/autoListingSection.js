@@ -1,7 +1,7 @@
 export default {
     type: 'object',
     name: 'autoListingSection',
-    title: 'Listings',
+    title: 'Auto Listings',
     fields: [
       {
         name: 'title',
