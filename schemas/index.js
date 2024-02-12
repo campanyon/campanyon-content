@@ -21,6 +21,8 @@ import autoListingSection from './objects/autoListingSection'
 import bannerSection from './objects/bannerSection'
 import horizontalImageTextSection from './objects/horizontalImageTextSection'
 import linksSection from './objects/linksSection'
+import fixedBannerSection from './objects/fixedBannerSection'
+import button from './objects/button'
 
 export const schemaTypes = [
     cta,
@@ -40,5 +42,7 @@ export const schemaTypes = [
     linksSection,
     videoSection,
     bannerSection,
+    fixedBannerSection,
     voucherSection,
+    button
 ]
